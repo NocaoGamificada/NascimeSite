@@ -157,7 +157,7 @@ body, html {
 
 .section-feedbacks {
     width: 100%;
-    height: 100vh;
+    height: calc(432px*2+14vh);
     background-color: #222323;
     display: flex;
     align-items: center;
@@ -176,11 +176,16 @@ body, html {
 
 .container-feedbacks {
     height: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .container-feedbacks img {
-    height: 100%;
-    margin: 0 3px;
+    height: 432px;
+    width: 280px;
+    margin: 15px;
 }
 
 .message-box {
