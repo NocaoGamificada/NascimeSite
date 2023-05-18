@@ -209,10 +209,6 @@ body, html {
     height: 4em;
 }
 
-.message-box {
-
-}
-
 .hide {
     transition: 0;
     opacity: 0;
